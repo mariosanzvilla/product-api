@@ -4,7 +4,7 @@ import CoursesData from "../../data/courses.json";
 
 export const loadApiEndpoints = (app: Application): void => {
   app.get("/", (req: Request, res: Response) => {
-    return res.status(200).send("Qué pasa Heroku!!");
+    return res.status(200).send("Qué pasa Heroku 3!!");
   });
 
   app.get("/products", (req: Request, res: Response) => {
